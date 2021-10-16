@@ -1,0 +1,190 @@
+.contenedor{
+    position: relative;  
+    text-align: center;
+    
+}
+
+.imagencabeza{
+    filter:brightness(0.5);
+}
+
+.texto-imagen{
+    position: absolute;
+    top: 170px;
+    left: 5px;
+    right: 100px;
+    color: white;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.botonquiero{
+    background-color: transparent;
+    color:white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.botoncompra{
+background-color: rgb(14, 165, 0);
+color: white;
+border: solid 1px  rgb(14, 165, 0);
+border-radius: 5px;
+}
+
+.separadorp{
+    text-align: center;
+}
+
+.separador{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.lengsteve{
+    background-color: rgb(209, 209, 10);
+    color: black;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-left: 5px;
+    margin-top: 3px;
+    padding: 1px 2px;
+    
+    
+}
+
+.lengsteve2{
+    background-color: rgb(4, 55, 97);
+    color: white;
+    border-radius: 4px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    margin-top: 3px;
+    
+}
+
+.lengada{
+    background-color: rgb(25, 26, 12);
+    color: white;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-left: 5px;
+    margin-top: 3px;
+    padding: 1px 2px;
+}
+
+.lengada2{
+    background-color: rgb(179, 42, 0);
+    color: white;
+    border-radius: 4px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    margin-top: 3px;
+}
+
+.lenguajes{
+    display: inline-flex;
+}
+
+.card-deck{
+    margin: auto;
+    display: flex;
+}
+
+.card{
+    margin: auto;
+}
+
+.vacaciones{
+    height: 400px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.izquierda{
+    
+    height: 400px;
+    width: 50%;
+}
+.izquierda img{
+    height: 400px;
+    width: 100%;
+}
+
+.derecha{
+    background-color: rgb(53, 53, 53);
+    height: 400px;
+    width: 50%;
+}
+
+.derecha{
+    color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.boton-vaca{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+.separadorfoot{
+    text-align: center;
+
+}
+
+.contacto{
+    text-align: center;
+}
+
+.charla-contacto{
+    text-decoration: underline dotted;
+}
+
+.contactanos{
+    text-align: center;
+    
+}
+
+.estilotextarea {
+    width:400px;
+    height:100px;
+    border: 2px solid #990000;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.botonenviar{
+    width: 604px;
+    height: 40px;
+    background-color: rgb(36, 163, 31);
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.pie {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(2, 66, 66) ;
+    padding-left: 120px;
+    padding-top: 15px;
+}
+
+.pie a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
