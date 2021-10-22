@@ -34,6 +34,14 @@ border: solid 1px  rgb(14, 165, 0);
 border-radius: 5px;
 }
 
+.botoncompra a {
+    color: white;
+    text-decoration: none;
+}
+.botoncompra a:hover {
+ text-decoration: none; 
+}
+
 .separadorp{
     text-align: center;
 }
