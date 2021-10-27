@@ -33,9 +33,103 @@
             </li>
           </ul>
         </div>
-    </nav>
+    </nav><br><br>
+   <div class="container" id="promos">
+    <div class="row">
+      <div class="col" id="est">
+        <p class="titlepromo">Estudiante</p>
+        <p class="desc">Tienen un descuento</p>
+        <p class="porcent">80</p>
+        <p class="documentation">Presentar documentacion</p>
+      </div>
+      <div class="col" id="train">
+        <p class="titlepromo">Trainee</p>
+        <p class="desc">Tienen un descuento</p>
+        <p class="porcent">50</p>
+        <p class="documentation">Presentar documentacion</p>
+      </div>
+      <div class="col" id="jun">
+        <p class="titlepromo">Junior</p>
+        <p class="desc">Tienen descuento</p>
+        <p class="porcent">15</p>
+        <p class="documentation">Presentar documentacion</p>
+      </div>
+    </div>
+    <div class="titlecards">
+      <p id="littletitle">VENTA</p>
+      <p id="bigtitle">VALOR DEL TICKET $200</p>
+    </div>
 
-    <h1>Pagina de compra</h1>
+  </div>
+  <div class="container" id="formcontainer2">
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" name="nombre">              
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="formmail">
+          <input type="email" class="form-control" placeholder="Correo" name="correo">
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col">
+          <label for="cantidad" class="labels">Cantidad</label>
+        </div>
+        <div class="col">
+          <label for="cantidad" class="labels">Categoria</label>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col" id="formmail">
+          <input type="number" class="form-control" id="cant" placeholder="cantidad" name="cantidad">
+        </div>
+        <div class="col" id="formmail">
+          <select class="form-select" id="precios" aria-label="Default select example">
+            <option value="80">Estudiante</option>
+            <option value="50">Trainee</option>
+            <option value="15">Junior</option>
+          </select>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col" id="formmail">
+          <input type="text" class="form-control" id="totalprice" value="Total a pagar: $" name="correo" readonly>
+        </div>
+      </div><br><br>
+      <div class="row">
+        <div class="col" id="formmail">
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary" id="buttonsend" type="reset">Borrar</button>
+          </div>
+        </div>
+        <div class="col" id="formmail">
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary" id="buttonsend" onclick="#">Resumen</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <br>
+  <br>
+
+  <div class="container-fluid" id="footer">
+    <div class="pie">
+      <a href="">Preguntas frecuentes</a>
+      <a href="">Contactanos</a>
+      <a href="">Prensa</a>
+      <a href="">Terminos y condiciones</a>
+      <a href="">Privacidad</a>
+      <a href="">Estudiantes</a>
+    </div>
+  </div>
+
+    
     
 </body>
 </html>
