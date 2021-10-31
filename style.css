@@ -197,4 +197,25 @@ textarea::placeholder{
     font-size: 20px;
 }
 
+.ventanaopciones{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 530px;
+    margin-top: 20px;
+}
+
+#est{
+    border: 2px solid rgb(46, 46, 182);
+    text-align: center;
+}
+
+#train{
+    border: 2px solid rgb(59, 180, 59);
+    text-align: center;
+}
+
+#jun{
+    border: 2px solid rgb(189, 40, 40);
+    text-align: center;
+}
 
