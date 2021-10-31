@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no">
   <link rel="stylesheet" href="style.css">
-  <title>Compra</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="backe.js"></script>
+  <title>Compra</title>
+ 
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="index.html"><img src="images/codoacodo.png"
-            width="150px" height="80px">Conf Bs As</a>
-        <div class="container-fluid nav justify-content-end">
-          <ul class="navbar-nav">
-    
-            <li class="nav-item">
-              <a class="nav-link active" href="#">La conferencia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Los oradores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">El lugar y la fecha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Conviertete en orador</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="compra.html" style="color: rgb(4, 177, 4);">Comprar tickets</a>
-            </li>
-          </ul>
-        </div>
-    </nav><br><br>
-   <div class="container" id="promos">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/codoacodo.png" width="150px" height="80px">Conf Bs As</a>
+    <div class="container-fluid nav justify-content-end">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#">La conferencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Los oradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Conviertete en orador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="compra.html" style="color: rgb(4, 177, 4);">Comprar tickets</a>
+        </li>
+      </ul>
+    </div>
+  </nav><br><br>
+  <div class="container" id="promos">
     <div class="row">
       <div class="col" id="est">
         <p class="titlepromo">Estudiante</p>
         <p class="desc">Tienen un descuento</p>
-        <p class="porcent">80</p>
+        <p class="porcent">80%</p>
         <p class="documentation">Presentar documentacion</p>
       </div>
       <div class="col" id="train">
         <p class="titlepromo">Trainee</p>
         <p class="desc">Tienen un descuento</p>
-        <p class="porcent">50</p>
+        <p class="porcent">50%</p>
         <p class="documentation">Presentar documentacion</p>
       </div>
       <div class="col" id="jun">
         <p class="titlepromo">Junior</p>
         <p class="desc">Tienen descuento</p>
-        <p class="porcent">15</p>
+        <p class="porcent">15%</p>
         <p class="documentation">Presentar documentacion</p>
       </div>
     </div>
@@ -68,11 +70,11 @@
           <input type="text" class="form-control" placeholder="Nombre" name="nombre">
         </div>
         <div class="col">
-          <input type="text" class="form-control" placeholder="Apellido" name="nombre">              
+          <input type="text" class="form-control" placeholder="Apellido" name="apellido">              
         </div>
       </div><br>
       <div class="row">
-        <div class="formmail">
+        <div class="">
           <input type="email" class="form-control" placeholder="Correo" name="correo">
         </div>
       </div><br>
@@ -85,11 +87,11 @@
         </div>
       </div><br>
       <div class="row">
-        <div class="col" id="formmail">
-          <input type="number" class="form-control" id="cant" placeholder="cantidad" name="cantidad">
+        <div class="col" id="">
+          <input type="number" class="form-control" id="cantidadentradas" placeholder="cantidad" name="cantidad">
         </div>
-        <div class="col" id="formmail">
-          <select class="form-select" id="precios" aria-label="Default select example">
+        <div class="col" id="">
+          <select class="form-select" id="porcentajedescuento" aria-label="Default select example">
             <option value="80">Estudiante</option>
             <option value="50">Trainee</option>
             <option value="15">Junior</option>
@@ -97,19 +99,19 @@
         </div>
       </div><br>
       <div class="row">
-        <div class="col" id="formmail">
+        <div class="col" id="">
           <input type="text" class="form-control" id="totalprice" value="Total a pagar: $" name="correo" readonly>
         </div>
       </div><br><br>
       <div class="row">
-        <div class="col" id="formmail">
+        <div class="col" id="">
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" id="buttonsend" type="reset">Borrar</button>
+            <button class="btn btn-primary" id="buttonborrar" type="reset">Borrar</button>
           </div>
         </div>
-        <div class="col" id="formmail">
+        <div class="col" id="">
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" id="buttonsend" onclick="#">Resumen</button>
+            <button class="btn btn-primary" id="buttonsend" onclick="resumen()">Resumen</button>
           </div>
         </div>
       </div>
@@ -128,8 +130,4 @@
       <a href="">Estudiantes</a>
     </div>
   </div>
-
-    
-    
-</body>
-</html>
+  </html>
