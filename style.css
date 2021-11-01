@@ -198,7 +198,7 @@ textarea::placeholder{
 }
 
 #promos{
-    display: inline-flex;
+    display: inline;
     text-align: center;
     margin-left: 530px;
     margin-top: 20px;
